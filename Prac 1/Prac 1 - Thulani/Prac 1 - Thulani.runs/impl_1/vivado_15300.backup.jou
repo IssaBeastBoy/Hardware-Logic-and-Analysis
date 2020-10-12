@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Sep 11 09:48:45 2020
+# Process ID: 15300
+# Current directory: D:/Hardware logic Design Analysis/Prac 1/Prac 1 - Thulani/Prac 1 - Thulani.runs/impl_1
+# Command line: vivado.exe -log task_3.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source task_3.tcl -notrace
+# Log file: D:/Hardware logic Design Analysis/Prac 1/Prac 1 - Thulani/Prac 1 - Thulani.runs/impl_1/task_3.vdi
+# Journal file: D:/Hardware logic Design Analysis/Prac 1/Prac 1 - Thulani/Prac 1 - Thulani.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source task_3.tcl -notrace

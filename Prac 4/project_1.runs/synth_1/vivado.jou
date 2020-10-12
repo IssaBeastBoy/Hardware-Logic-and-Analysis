@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Oct  8 11:18:10 2020
+# Process ID: 5508
+# Current directory: D:/Hardware logic Design Analysis/Prac 4/project_1.runs/synth_1
+# Command line: vivado.exe -log clock_and.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clock_and.tcl
+# Log file: D:/Hardware logic Design Analysis/Prac 4/project_1.runs/synth_1/clock_and.vds
+# Journal file: D:/Hardware logic Design Analysis/Prac 4/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source clock_and.tcl -notrace

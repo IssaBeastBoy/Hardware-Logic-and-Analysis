@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Oct  8 11:05:12 2020
+# Process ID: 8736
+# Current directory: D:/Hardware logic Design Analysis/Prac 5/Tasks
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20932 D:\Hardware logic Design Analysis\Prac 5\Tasks\Tasks.xpr
+# Log file: D:/Hardware logic Design Analysis/Prac 5/Tasks/vivado.log
+# Journal file: D:/Hardware logic Design Analysis/Prac 5/Tasks\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Hardware logic Design Analysis/Prac 5/Tasks/Tasks.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:05 . Memory (MB): peak = 1030.340 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+CRITICAL WARNING: [HDL 9-806] Syntax error near "7". [D:/Hardware logic Design Analysis/Prac 5/Tasks/Tasks.srcs/sources_1/new/Task 7.vhd:34]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "7". [D:/Hardware logic Design Analysis/Prac 5/Tasks/Tasks.srcs/sources_1/new/Task 7.vhd:38]
+WARNING: [filemgmt 20-736] The current top specification, "clock_and", does not uniquely identify a single design element. Using "clock_and" (Architecture: behavior, Library: xil_defaultlib, File: D:/Hardware logic Design Analysis/Prac 5/Tasks/Tasks.srcs/sources_1/new/Task 6.vhd).
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'clock_and(behavior)' found in library 'xil_defaultlib'
+Duplicate found at line 25 of file D:/Hardware logic Design Analysis/Prac 5/Tasks/Tasks.srcs/sources_1/new/Task 5.vhd
+	(Active) Duplicate found at line 25 of file D:/Hardware logic Design Analysis/Prac 5/Tasks/Tasks.srcs/sources_1/new/Task 6.vhd
+[Thu Oct  8 11:08:52 2020] Launched synth_1...
+Run output will be captured here: D:/Hardware logic Design Analysis/Prac 5/Tasks/Tasks.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Thu Oct  8 11:09:54 2020] Launched impl_1...
+Run output will be captured here: D:/Hardware logic Design Analysis/Prac 5/Tasks/Tasks.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Thu Oct  8 11:10:55 2020] Launched impl_1...
+Run output will be captured here: D:/Hardware logic Design Analysis/Prac 5/Tasks/Tasks.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.1
+  **** Build date : May 27 2020 at 20:24:38
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 14 2020-03:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 1030.340 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AB4B41A
+set_property PROGRAM.FILE {D:/Hardware logic Design Analysis/Prac 5/Tasks/Tasks.runs/impl_1/clock_and.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Hardware logic Design Analysis/Prac 5/Tasks/Tasks.runs/impl_1/clock_and.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct  8 11:17:00 2020...

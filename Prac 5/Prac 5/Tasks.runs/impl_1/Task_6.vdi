@@ -1,0 +1,918 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Oct  9 18:43:11 2020
+# Process ID: 18728
+# Current directory: D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.runs/impl_1
+# Command line: vivado.exe -log Task_6.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Task_6.tcl -notrace
+# Log file: D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.runs/impl_1/Task_6.vdi
+# Journal file: D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Task_6.tcl -notrace
+Command: link_design -top Task_6 -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-454] Reading design checkpoint 'd:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2.dcp' for cell 'pixel_clock'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1030.148 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1073 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Task_6' is not ideal for floorplanning, since the cellview 'Task_6' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2_board.xdc] for cell 'pixel_clock/inst'
+Finished Parsing XDC File [d:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2_board.xdc] for cell 'pixel_clock/inst'
+Parsing XDC File [d:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2.xdc] for cell 'pixel_clock/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2.xdc:57]
+get_clocks: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1341.613 ; gain = 311.465
+Finished Parsing XDC File [d:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/sources_1/ip/clk_wiz_2/clk_wiz_2.xdc] for cell 'pixel_clock/inst'
+Parsing XDC File [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc]
+WARNING: [Vivado 12-584] No ports matched 'A[0]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[0]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[1]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[1]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[2]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[2]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[3]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[3]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[4]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[4]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[5]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[5]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[6]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[6]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[7]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[7]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[0]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[0]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[1]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[1]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[2]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[2]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[3]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[3]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[4]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[4]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[5]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[5]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[6]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[6]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[7]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[7]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[0]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[0]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[1]}'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[1]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[2]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[2]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[3]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[3]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[4]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[4]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[5]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[5]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[6]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[6]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[7]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'diff[7]'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B_carry'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B_carry'. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc]
+Parsing XDC File [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[2]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[3]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[4]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[5]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[6]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[7]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[8]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[9]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[10]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[11]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[12]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[13]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[14]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[15]'. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc]
+Parsing XDC File [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_5.xdc]
+Finished Parsing XDC File [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_5.xdc]
+Parsing XDC File [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_6.xdc]
+Finished Parsing XDC File [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_6.xdc]
+Parsing XDC File [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led1'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led1'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led2'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led2'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led3'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led3'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led4'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led4'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led5'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led5'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led6'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led6'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led7'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led7'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led8'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led8'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led9'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led9'. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:64]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc:64]
+Finished Parsing XDC File [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc]
+Parsing XDC File [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_7.xdc]
+Finished Parsing XDC File [D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_7.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1341.613 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+12 Infos, 101 Warnings, 100 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1341.613 ; gain = 311.465
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.899 . Memory (MB): peak = 1341.613 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-2] Deriving generated clocks
+Ending Cache Timing Information Task | Checksum: 178f0770b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.223 . Memory (MB): peak = 1360.520 ; gain = 18.906
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 178f0770b
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.366 . Memory (MB): peak = 1558.824 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Retarget, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 14c1a2e28
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.420 . Memory (MB): peak = 1558.824 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: e4253d17
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.638 . Memory (MB): peak = 1558.824 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: e4253d17
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.846 . Memory (MB): peak = 1558.824 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: e4253d17
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.910 . Memory (MB): peak = 1558.824 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: e4253d17
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.933 . Memory (MB): peak = 1558.824 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              1  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1558.824 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: ff61df54
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1558.824 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: ff61df54
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1558.824 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: ff61df54
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1558.824 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1558.824 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: ff61df54
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1558.824 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+31 Infos, 101 Warnings, 100 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1558.824 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.runs/impl_1/Task_6_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file Task_6_drc_opted.rpt -pb Task_6_drc_opted.pb -rpx Task_6_drc_opted.rpx
+Command: report_drc -file Task_6_drc_opted.rpt -pb Task_6_drc_opted.pb -rpx Task_6_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.runs/impl_1/Task_6_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1558.824 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 72275349
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1558.824 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1558.824 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 11cca9d5a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.805 . Memory (MB): peak = 1558.824 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 14fe6c6d5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1560.637 ; gain = 1.813
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 14fe6c6d5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1560.637 ; gain = 1.813
+Phase 1 Placer Initialization | Checksum: 14fe6c6d5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1560.637 ; gain = 1.813
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 1f7984282
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1560.637 ; gain = 1.813
+
+Phase 2.2 Global Placement Core
+
+Phase 2.2.1 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 46 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-775] End 1 Pass. Optimized 21 nets or cells. Created 0 new cell, deleted 21 existing cells and moved 0 existing cell
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register to Pipeline Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+INFO: [Physopt 32-949] No candidate nets found for HD net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1560.637 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |             21  |                    21  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            0  |             21  |                    21  |           0  |           3  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2.1 Physical Synthesis In Placer | Checksum: 200d65b3e
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1560.637 ; gain = 1.813
+Phase 2.2 Global Placement Core | Checksum: 15ed08886
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1560.637 ; gain = 1.813
+Phase 2 Global Placement | Checksum: 15ed08886
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1560.637 ; gain = 1.813
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 16ce210fc
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1560.637 ; gain = 1.813
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: dbb8c9ba
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1560.637 ; gain = 1.813
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1896df38f
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1560.637 ; gain = 1.813
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1624b40c1
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1560.637 ; gain = 1.813
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: bfa0be67
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1560.637 ; gain = 1.813
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 9e9bbee5
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1560.637 ; gain = 1.813
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 77f8efb3
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1560.637 ; gain = 1.813
+Phase 3 Detail Placement | Checksum: 77f8efb3
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1560.637 ; gain = 1.813
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 1717c6893
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=5.592 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1fa8d7714
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.244 . Memory (MB): peak = 1571.840 ; gain = 0.000
+INFO: [Place 46-33] Processed net b_output, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-56] BUFG insertion identified 1 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 1, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 102765f21
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.390 . Memory (MB): peak = 1571.840 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 1717c6893
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1571.840 ; gain = 13.016
+INFO: [Place 30-746] Post Placement Timing Summary WNS=5.592. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1451e831c
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1571.840 ; gain = 13.016
+Phase 4.1 Post Commit Optimization | Checksum: 1451e831c
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1571.840 ; gain = 13.016
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1451e831c
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1571.840 ; gain = 13.016
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 1451e831c
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1571.840 ; gain = 13.016
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1571.840 ; gain = 0.000
+Phase 4.4 Final Placement Cleanup | Checksum: 11efbd823
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1571.840 ; gain = 13.016
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 11efbd823
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1571.840 ; gain = 13.016
+Ending Placer Task | Checksum: 4f19281d
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1571.840 ; gain = 13.016
+INFO: [Common 17-83] Releasing license: Implementation
+66 Infos, 101 Warnings, 100 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1571.840 ; gain = 13.016
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.380 . Memory (MB): peak = 1571.848 ; gain = 0.008
+INFO: [Common 17-1381] The checkpoint 'D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.runs/impl_1/Task_6_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file Task_6_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1571.848 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file Task_6_utilization_placed.rpt -pb Task_6_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file Task_6_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1571.848 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+75 Infos, 101 Warnings, 100 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.398 . Memory (MB): peak = 1604.152 ; gain = 17.875
+INFO: [Common 17-1381] The checkpoint 'D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.runs/impl_1/Task_6_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 4297d8a ConstDB: 0 ShapeSum: 4aefaa93 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 14b9dc00e
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:16 . Memory (MB): peak = 1710.875 ; gain = 93.691
+Post Restoration Checksum: NetGraph: eda7ac8c NumContArr: 5df61382 Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 14b9dc00e
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:16 . Memory (MB): peak = 1710.875 ; gain = 93.691
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 14b9dc00e
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:16 . Memory (MB): peak = 1716.863 ; gain = 99.680
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 14b9dc00e
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:16 . Memory (MB): peak = 1716.863 ; gain = 99.680
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1fd8e5558
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 1724.359 ; gain = 107.176
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.641  | TNS=0.000  | WHS=-0.200 | THS=-235.263|
+
+Phase 2 Router Initialization | Checksum: 220784cf2
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:18 . Memory (MB): peak = 1729.594 ; gain = 112.410
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 4768
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 4768
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 652b6190
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:19 . Memory (MB): peak = 1735.039 ; gain = 117.855
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 57
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.692  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 14d3b1a3a
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 1735.039 ; gain = 117.855
+Phase 4 Rip-up And Reroute | Checksum: 14d3b1a3a
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 1735.039 ; gain = 117.855
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 14d3b1a3a
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 1735.039 ; gain = 117.855
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 14d3b1a3a
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 1735.039 ; gain = 117.855
+Phase 5 Delay and Skew Optimization | Checksum: 14d3b1a3a
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 1735.039 ; gain = 117.855
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 221c76e3b
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 1735.039 ; gain = 117.855
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.699  | TNS=0.000  | WHS=0.037  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1adccaa1b
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 1735.039 ; gain = 117.855
+Phase 6 Post Hold Fix | Checksum: 1adccaa1b
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 1735.039 ; gain = 117.855
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 1.05525 %
+  Global Horizontal Routing Utilization  = 1.31052 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 14f63eae3
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 1735.039 ; gain = 117.855
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 14f63eae3
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:20 . Memory (MB): peak = 1735.039 ; gain = 117.855
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1d9ee35de
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:21 . Memory (MB): peak = 1735.039 ; gain = 117.855
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=3.699  | TNS=0.000  | WHS=0.037  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 1d9ee35de
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:21 . Memory (MB): peak = 1735.039 ; gain = 117.855
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:21 . Memory (MB): peak = 1735.039 ; gain = 117.855
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+89 Infos, 101 Warnings, 100 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:22 . Memory (MB): peak = 1735.039 ; gain = 130.887
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.453 . Memory (MB): peak = 1742.797 ; gain = 7.758
+INFO: [Common 17-1381] The checkpoint 'D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.runs/impl_1/Task_6_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file Task_6_drc_routed.rpt -pb Task_6_drc_routed.pb -rpx Task_6_drc_routed.rpx
+Command: report_drc -file Task_6_drc_routed.rpt -pb Task_6_drc_routed.pb -rpx Task_6_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.runs/impl_1/Task_6_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file Task_6_methodology_drc_routed.rpt -pb Task_6_methodology_drc_routed.pb -rpx Task_6_methodology_drc_routed.rpx
+Command: report_methodology -file Task_6_methodology_drc_routed.rpt -pb Task_6_methodology_drc_routed.pb -rpx Task_6_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.runs/impl_1/Task_6_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file Task_6_power_routed.rpt -pb Task_6_power_summary_routed.pb -rpx Task_6_power_routed.rpx
+Command: report_power -file Task_6_power_routed.rpt -pb Task_6_power_summary_routed.pb -rpx Task_6_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+101 Infos, 101 Warnings, 100 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file Task_6_route_status.rpt -pb Task_6_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file Task_6_timing_summary_routed.rpt -pb Task_6_timing_summary_routed.pb -rpx Task_6_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file Task_6_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file Task_6_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file Task_6_bus_skew_routed.rpt -pb Task_6_bus_skew_routed.pb -rpx Task_6_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Command: write_bitstream -force Task_6.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC CFGBVS-1] Missing CFGBVS and CONFIG_VOLTAGE Design Properties: Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./Task_6.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+120 Infos, 102 Warnings, 100 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 2180.969 ; gain = 325.492
+INFO: [Common 17-206] Exiting Vivado at Fri Oct  9 18:44:31 2020...

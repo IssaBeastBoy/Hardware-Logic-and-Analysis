@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX1
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0021728B    Sep 13 09:15:11 2019    C:/Users/Letter/vga_grey/project_1.runs/impl_1/clock_and.bit

@@ -1,0 +1,49 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri Sep 11 10:15:09 2020
+| Host         : HONS39 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file task_3_methodology_drc_routed.rpt -pb task_3_methodology_drc_routed.pb -rpx task_3_methodology_drc_routed.rpx
+| Design       : task_3
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 2
++--------+----------+------------------------------------------------------+------------+
+| Rule   | Severity | Description                                          | Violations |
++--------+----------+------------------------------------------------------+------------+
+| XDCC-4 | Warning  | User Clock constraint overwritten with the same name | 2          |
++--------+----------+------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+XDCC-4#1 Warning
+User Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous user clock constraint with the same name.
+New: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clock] (Source: D:/Hardware logic Design Analysis/Prac 1/Task2_pins.xdc (Line: 9))
+Previous: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clock] (Source: D:/Hardware logic Design Analysis/Prac 1/pins.xdc (Line: 9))
+Related violations: <none>
+
+XDCC-4#2 Warning
+User Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous user clock constraint with the same name.
+New: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clock] (Source: D:/Hardware logic Design Analysis/Prac 1/Task3_pins .xdc (Line: 9))
+Previous: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clock] (Source: D:/Hardware logic Design Analysis/Prac 1/Task2_pins.xdc (Line: 9))
+Related violations: <none>
+
+

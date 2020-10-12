@@ -1,0 +1,88 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Oct  8 11:19:25 2020
+| Host         : HONS39 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file clock_and_control_sets_placed.rpt
+| Design       : clock_and
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    10 |
+|    Minimum number of control sets                        |    10 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    52 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    10 |
+| >= 0 to < 4        |     6 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     0 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               1 |            1 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              11 |            8 |
+| Yes          | No                    | No                     |               6 |            2 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              18 |            7 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+------------------+------------------+------------------+----------------+--------------+
+|        Clock Signal        |   Enable Signal  | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------+------------------+------------------+------------------+----------------+--------------+
+|  pixel_clock/inst/clk_out1 |                  |                  |                1 |              1 |         1.00 |
+|  pixel_clock/inst/clk_out1 | b_vsync0_out     | b_vsync2_out     |                1 |              1 |         1.00 |
+|  pixel_clock/inst/clk_out1 | p_1_out          | b_hsync          |                1 |              1 |         1.00 |
+|  pixel_clock/inst/clk_out1 | pixel_count0     |                  |                1 |              2 |         2.00 |
+|  pixel_clock/inst/clk_out1 | green[2]_i_2_n_0 | green[2]_i_1_n_0 |                1 |              2 |         2.00 |
+|  pixel_clock/inst/clk_out1 | green[3]_i_2_n_0 | green[3]         |                1 |              2 |         2.00 |
+|  pixel_clock/inst/clk_out1 | red              |                  |                1 |              4 |         4.00 |
+|  pixel_clock/inst/clk_out1 | red              | blue[3]_i_1_n_0  |                1 |              4 |         4.00 |
+|  pixel_clock/inst/clk_out1 | pixel_count0     | b_output         |                2 |              8 |         4.00 |
+|  pixel_clock/inst/clk_out1 |                  | pixel_count0     |                8 |             11 |         1.38 |
++----------------------------+------------------+------------------+------------------+----------------+--------------+
+
+

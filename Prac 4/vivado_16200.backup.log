@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Sep 28 17:29:45 2020
+# Process ID: 16200
+# Current directory: D:/Downloads/vga_grey/vga_grey
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9092 D:\Downloads\vga_grey\vga_grey\project_1.xpr
+# Log file: D:/Downloads/vga_grey/vga_grey/vivado.log
+# Journal file: D:/Downloads/vga_grey/vga_grey\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 28 17:30:28 2020...

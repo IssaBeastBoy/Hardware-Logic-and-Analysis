@@ -1,0 +1,81 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri Oct  9 18:44:18 2020
+| Host         : HONS39 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file Task_6_methodology_drc_routed.rpt -pb Task_6_methodology_drc_routed.pb -rpx Task_6_methodology_drc_routed.rpx
+| Design       : Task_6
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 7
++----------+------------------+------------------------------------------------------+------------+
+| Rule     | Severity         | Description                                          | Violations |
++----------+------------------+------------------------------------------------------+------------+
+| TIMING-6 | Critical Warning | No common primary clock between related clocks       | 2          |
+| XDCC-4   | Warning          | User Clock constraint overwritten with the same name | 5          |
++----------+------------------+------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-6#1 Critical Warning
+No common primary clock between related clocks  
+The clocks clk_out1_clk_wiz_2 and clk_out1_clk_wiz_2_1 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_clk_wiz_2] -to [get_clocks clk_out1_clk_wiz_2_1]
+Related violations: <none>
+
+TIMING-6#2 Critical Warning
+No common primary clock between related clocks  
+The clocks clk_out1_clk_wiz_2_1 and clk_out1_clk_wiz_2 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_clk_wiz_2_1] -to [get_clocks clk_out1_clk_wiz_2]
+Related violations: <none>
+
+XDCC-4#1 Warning
+User Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous user clock constraint with the same name.
+New: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clock] (Source: D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc (Line: 9))
+Previous: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clock] (Source: D:/Hardware logic Design Analysis/Prac 3/Task_2.xdc (Line: 9))
+Related violations: <none>
+
+XDCC-4#2 Warning
+User Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous user clock constraint with the same name.
+New: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clock] (Source: D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc (Line: 9))
+Previous: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clock] (Source: D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_6.xdc (Line: 9))
+Related violations: <none>
+
+XDCC-4#3 Warning
+User Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous user clock constraint with the same name.
+New: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clock] (Source: D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_5.xdc (Line: 9))
+Previous: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clock] (Source: D:/Hardware logic Design Analysis/Prac 3/Task_3.xdc (Line: 9))
+Related violations: <none>
+
+XDCC-4#4 Warning
+User Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous user clock constraint with the same name.
+New: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clock] (Source: D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_6.xdc (Line: 9))
+Previous: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clock] (Source: D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_5.xdc (Line: 9))
+Related violations: <none>
+
+XDCC-4#5 Warning
+User Clock constraint overwritten with the same name  
+A new clock constraint create_clock overrides a previous user clock constraint with the same name.
+New: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clock] (Source: D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_7.xdc (Line: 9))
+Previous: create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clock] (Source: D:/Hardware logic Design Analysis/Prac 5/g16t5351/Tasks.srcs/constrs_1/new/Task_4.xdc (Line: 9))
+Related violations: <none>
+
+
